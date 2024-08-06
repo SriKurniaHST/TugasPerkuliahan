@@ -1,0 +1,355 @@
+/* CSS untuk Navbar */
+a {
+    text-decoration: none;
+}
+form {
+    padding-top: 20px;
+}
+.center {
+    border: 5px solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(72, 76, 181); /* Ganti dengan warna latar belakang yang diinginkan */
+    padding: 10px 20px;
+    position : fixed;
+    top : 0;
+    width: 100%;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff; 
+    transition: color 0.3s ease;
+    font-size: large;
+}
+
+.nav-item a:hover {
+    color: #ffcc00; /* Ganti dengan warna teks hover yang diinginkan */
+}
+
+/* Style untuk tombol logout */
+.nav-item form {
+    display: inline; /* Membuat form berada dalam satu baris */
+    margin: 0; /* Menghapus margin */
+    padding: 0; /* Menghapus padding */
+    border: none; /* Menghapus border */
+}
+
+.nav-item button {
+    background: none; 
+    border: none; 
+    color: #fff; 
+    cursor: pointer;
+    font-size: large; 
+    padding-right: 20px;
+}
+
+.nav-item button:hover {
+    color: crimson;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-tambah-buku {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.username-input {
+    width: 30%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.password-input {
+    width: 30%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.tambah-buku {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.tambah-buku:hover {
+    background-color: #0056b3;
+}
+
+.button-tambah {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.button-ubah {
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.button-hapus{
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #c2261b;
+    color: white;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.button-detail{
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #cec407;
+    color: white;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.button-pinjam {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.button-ubah:hover {
+    background-color: #0056b3;
+}
+
+.button-hapus:hover {
+    background-color: #a52201;
+}
+
+.button-detail:hover {
+    background-color: #a9a108;
+}
+
+.button-pinjam:hover {
+    background-color: #0056b3;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.button-login {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0ac220;
+    color: white;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.register-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.register-form input[type="text"],
+.register-form input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.register-form input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+    background-color: #555;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+
+.login-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #555;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.register-link a:hover {
+    color: #555;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
